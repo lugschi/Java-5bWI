@@ -2,19 +2,19 @@ package at.glu.camera;
 
 public class Producer {
     private String name;
-    private String land;
+    private String country;
 
 
-    public Producer(String name, String land) {
+    public Producer(String name, String country) {
         this.name = name;
-        this.land = land;
+        this.country = country;
     }
     
     public String getName() {
         return name;
     }
-    public String getLand() {
-        return land;
+    public String getCountry() {
+        return country;
     }
     public void setName(String name) {
         this.name = name;

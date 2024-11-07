@@ -2,10 +2,10 @@ package at.glu.camera;
 
 public class File {
     private String name;
-    private long date;
+    private String date;
     private int fileSize;
 
-    public File(String name, long date, int fileSize) {
+    public File(String name, String date, int fileSize) {
         this.name = name;
         this.date = date;
         this.fileSize = fileSize;
@@ -16,7 +16,7 @@ public class File {
     }
     
 
-    public long getDate() {
+    public String getDate() {
         return date;
     }
 
