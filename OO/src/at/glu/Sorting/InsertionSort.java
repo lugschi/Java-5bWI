@@ -20,7 +20,6 @@ public class InsertionSort implements Sorter {
             }
             data[j + 1] = key;
         }
-
         System.out.println(Arrays.toString(data));
     }
 }
